@@ -35,7 +35,7 @@
             <td>Jazz</td>
             <td>Jazmin</td>
             <td>21</td>
-            <td>Licenciada en Venta de material ilicito</td>
+            <td>Vende falopa</td>
         </tr>
         </table>
         </section>
@@ -49,21 +49,34 @@
         </form>
         <br>
         <!-- Formulario simple que enviará una petición POST -->
-        <form action="" method="post">
-          <label for="POST-name">Nombre:</label>
+        <!--Usar método POST, para mas seguridad en el envio de correos, contraseñas o datos-->
+        <form action="mailto:juan.miguez@bue.edu.ar" method="post">
+          <label for="POST-name">nombre:</label>
           <input id="POST-name" type="text" name="name">
           <input type="submit" value="Save">
         </form>
         <br>
         <!-- Formulario con conjunto de campos, leyenda y etiqueta -->
-        <form action="" method="post">
+        <form action="" method="get">
           <fieldset>
-            <legend>Título</legend>
-            <input type="radio" name="radio" id="radio">
-            <label for="radio">Clic aquí</label>
+            <legend>Sexo?</legend>
+            <input type="radio" name="sexo" value="masculino" id="radio">
+            <label for="radio">masculino</label>
+            <br>
+            <input type="radio" name="sexo" value="femenino" id="radio">
+            <label for="radio">femenino</label>
+            <br>
+            <input type="radio" name="sexo" value="gay" id="radio">
+            <label for="radio">gay</label>
+            <br>
+            <input type="radio" name="sexo" value="lesbi" id="radio">
+            <label for="radio">lesbi</label>
+            <br>
+            <input type="radio" name="sexo" value="a veces" id="radio">
+            <label for="radio">a veces</label>
           </fieldset>
         </form>
-        <br>
+        <br />
         <form class="" action="mailto:juan.miguez@bue.edu.ar" method="post" enctype="text/plain">
          <label for="">Nombre:</label>
           <input type="text" name="nombre" value="">
@@ -79,4 +92,4 @@
         
         </body>
         </html>
-
+      
