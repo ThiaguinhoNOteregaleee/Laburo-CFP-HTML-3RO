@@ -1,0 +1,15 @@
+/*CSS = Cascade Style Sheet*/
+/*sintaxis*
+selector { 
+    Propiedad:valor;
+}
+
+/*Ejemplo*/
+
+h1{
+    color:aqua
+}
+h1{
+    color: chartreuse;
+}
+/*La hoja de estilos en cascada se aplica linea a linea entonces lo ultimo que aplicamos es 
